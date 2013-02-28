@@ -9,4 +9,4 @@ cloud_servers = pyrax.cloudservers
 
 for server in cloud_servers.servers.list():
     print "Name: %s\n    ID: %s\n    IP: %s" % \
-           (server.name, server.id, server.accessIPv4)    
+           (server.name, server.id, server.accessIPv4)
